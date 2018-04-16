@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="thumb">
+        <div class="big">
+            <span class="eyel"></span>
+            <span class="eyer"></span>
+            <span class="mouh"></span>
+        </div>
+        <div class="hand"></div>
+        <div class="up"></div>
+        <div class="dn"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+
+        <div class="num">1</div>
+    </div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
+<script src="https://cdn.bootcss.com/systemjs/0.21.2/system.js"></script>
+<script src="index.js"></script>
+
+<script>
+    SystemJS.config({
+        baseURL: '/thumb-master/script'
+    });
+
+    SystemJS.import('index-es.js').then(function(m) {
+        $.extend({
+            thumb:m.default.Thumb
+        });
+        callBack();
+    });
+
+    function callBack(){
+        let f = new $.thumb(0,$('.thumb'));
+        f.clickAction();
+    }
+  </script>
+</body>
+</html>

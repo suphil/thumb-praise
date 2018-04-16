@@ -1,1 +1,1 @@
-# thumb-praise
+# thumb

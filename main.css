@@ -1,0 +1,29 @@
+
+.thumb{width:300px;height:300px;margin:100px auto;display:block;position:relative;}
+.thumb.on *{border-color:#c0c0c0;}
+.thumb.on .eyel{background-color: #c0c0c0}
+.thumb.on .eyer{background-color: #c0c0c0}
+
+
+.big{border:4px solid #E28621;width:73px;height:120px;border-radius:164px 86px 60px 170px/140px 120px 140px 300px;position:absolute;
+    left:118px;top:23px;border-bottom:0;}
+.eyel{width:8px;height:15px;background:#E28621;border-radius:20px;display:block;position:absolute;top:25px;left:20px;}
+.eyer{width:8px;height:15px;background:#E28621;border-radius:20px;display:block;position:absolute;top:25px;right:20px;}
+.mouh{width:30px;height:28px;border-bottom:2px solid #E28621;display:block;border-radius:20px;position:absolute;top:37px;left:21px;}
+.hand{border:4px solid #E28621;width:42px;height:76px;border-left:0;position:absolute;bottom:60px;right:37px;border-radius:15px;}
+.up{width:34px;height:11px;display:block;border:4px solid #E28621;transform:rotate(27deg);position:absolute;right:74px;bottom:137px;
+    border-radius:234px 170px 288px 300px/58px 188px 216px 248px;border-top:0;}
+.dn{width:76px;height:25px;display:block;border:4px solid #E28621;transform:rotate(-14deg);position:absolute;right:71px;bottom:49px;
+    border-radius:50px;border-top:0;border-left:0;border-right:0;}
+.dn:after{content:"";display:block;width:14px;height:10px;background:#fff;position:absolute;right:-3px;bottom:3px;}
+.second{border:4px solid #E28621;border-right:0;width:72px;height:40px;border-radius:50px;position:absolute;right:139px;bottom:112px;
+    transform:rotate(-6deg);}
+.third{width:60px;height:27px;border:4px solid #E28621;border-top:0;border-radius:37px;position:absolute;bottom:86px;right:138px;
+    transform:rotate(-8deg);}
+.four{width:53px;height:20px;border:4px solid #E28621;border-top:0;border-radius:37px;position:absolute;bottom:66px;right:132px;
+    transform:rotate(-8deg);}
+.five{width:45px;height:17px;border:4px solid #E28621;border-top:0;border-radius:37px;position:absolute;bottom:49px;right:125px;
+    transform:rotate(-9deg);}
+
+.num{width:30px;height:30px;background-color: pink;border-radius: 50%;text-align: center;
+    line-height: 30px;margin-left: 222px;color: #ffffff;display: none;}
